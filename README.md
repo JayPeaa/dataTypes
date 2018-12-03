@@ -36,3 +36,25 @@ public class Main {
 	// write your code here
     }
 }
+
+package com.JohnHay;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+    byte myByteValue = 125;
+
+    short myShortValue = 32_765;
+
+    int myIntValue = 10;
+
+    long myLongValue = (50_000 + 10) * (myByteValue + myShortValue + myIntValue);
+        System.out.println("my Long Value Literal = " + myLongValue);
+    short myShortTotal = (short) (1000 + 10 * myByteValue + myShortValue + myIntValue);
+        System.out.println("my short Value Literal = " + myShortTotal);
+
+
+    }
+}
+
